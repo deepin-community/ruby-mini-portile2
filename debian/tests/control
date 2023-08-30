@@ -1,0 +1,6 @@
+Test-Command: gem2deb-test-runner -c --autopkgtest
+Depends: build-essential,
+         gem2deb-test-runner,
+         @,
+         @builddeps@
+Restrictions: allow-stderr
